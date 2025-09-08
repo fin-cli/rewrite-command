@@ -1,29 +1,29 @@
 {
-    "name": "wp-cli/rewrite-command",
-    "type": "wp-cli-package",
+    "name": "fp-cli/rewrite-command",
+    "type": "fp-cli-package",
     "description": "Lists or flushes the site's rewrite rules, updates the permalink structure.",
-    "homepage": "https://github.com/wp-cli/rewrite-command",
+    "homepage": "https://github.com/fp-cli/rewrite-command",
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Bachhuber",
-            "email": "daniel@runcommand.io",
-            "homepage": "https://runcommand.io"
+            "name": "Devyn",
+            "email": "devyntwilliam@gmail.com",
+            "homepage": "https://fintasticfish.us"
         }
     ],
     "require": {
-        "wp-cli/wp-cli": "^2.12"
+        "fp-cli/fp-cli": "^2.12"
     },
     "require-dev": {
-        "wp-cli/entity-command": "^1.3 || ^2",
-        "wp-cli/wp-cli-tests": "^5"
+        "fp-cli/entity-command": "^1.3 || ^2",
+        "fp-cli/fp-cli-tests": "^5"
     },
     "config": {
         "process-timeout": 7200,
         "sort-packages": true,
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "johnpbloch/wordpress-core-installer": true,
+            "dieselfox1/finpress-core-installer": true,
             "phpstan/extension-installer": true
         },
         "lock": false
@@ -68,6 +68,6 @@
         ]
     },
     "support": {
-        "issues": "https://github.com/wp-cli/rewrite-command/issues"
+        "issues": "https://github.com/fp-cli/rewrite-command/issues"
     }
 }
